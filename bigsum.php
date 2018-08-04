@@ -56,6 +56,7 @@ function sbigsum(string $fnum, string $snum)
 			$ovr 	= 0;
 		}
 	}
+	if ($ovr ==1) $result = '1'.$result;
 	return $result;
 }
 
